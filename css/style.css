@@ -9,7 +9,7 @@ ul {
 
 :root {
     --main-color: #55527C;
-    --dark-color: #130F49;
+    --dark-color: #fff;
     --yellow-color: #FF972D;
     --blue-color: #A5A6FF;
     --font-inter: 'Inter', sans-serif;
@@ -30,8 +30,8 @@ body {
     letter-spacing: 0;
     word-wrap: break-word;
     font-weight: 400;
-    background-color: #fff;
-    color: var(--main-color);
+    background-color: #000000;
+    color: #fff;
     overflow-x: hidden
 }
 
@@ -391,7 +391,7 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_topbar .logo .text {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     text-transform: uppercase;
     font-family: poppins;
     font-size: 28px;
@@ -593,7 +593,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 88px;
     font-family: var(--font-kristi);
     line-height: 1;
-    color: rgba(19, 15, 73, .07);
+    color: rgb(0, 0, 0);
     display: block
 }
 
@@ -634,7 +634,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_sidebar .menu ul li a {
-    color: var(--main-color);
+    color: #fff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -678,7 +678,7 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     position: relative;
     border-radius: 100%;
-    background-color: rgba(19, 15, 73, .05);
+    background-color: rgba(165, 160, 233, 0.521);
     color: var(--dark-color)
 }
 
@@ -699,7 +699,7 @@ body::-webkit-scrollbar-thumb {
     min-height: 100vh;
     clear: both;
     float: left;
-    background-color: #effbf8
+    background-color: #000000
 }
 
 .elisc_tm_home .details {
@@ -752,10 +752,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_button a {
-    color: #fff;
-    background-color: #130f49;
+    color: #000000;
+    background-color: #fff;
     display: inline-block;
-    border: 1.5px solid #130f49;
+    border: 1.5px solid #fff;
     border-radius: 4px;
     padding: 9px 40px;
     white-space: nowrap;
@@ -773,11 +773,11 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_button[data-style=border] a {
     background-color: transparent;
-    color: #55527c
+    color: #ffffff
 }
 
 .elisc_tm_button[data-style=border] a:hover {
-    background-color: #130f49;
+    background-color: #fff;
     color: #fff
 }
 
@@ -833,7 +833,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_home .info ul li a {
-    color: #130f49;
+    color: #fff;
     font-weight: 600;
     font-size: 18px;
     -webkit-transition: all .3s ease;
@@ -848,7 +848,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_home .info ul li p {
-    color: #130f49;
+    color: #fff;
     font-weight: 600;
     font-size: 18px
 }
@@ -1009,15 +1009,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_counter ul li:nth-child(1) .list_inner {
-    background-color: #d3f4ec
+    background-color: #d3f4ec8a
 }
 
 .elisc_tm_counter ul li:nth-child(2) .list_inner {
-    background-color: #fce8d4
+    background-color: #fce8d47a
 }
 
 .elisc_tm_counter ul li:nth-child(3) .list_inner {
-    background-color: #e3f9e0
+    background-color: #e3f9e079
 }
 
 .elisc_tm_counter h3 {
@@ -1034,7 +1034,7 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_experience {
     width: 100%;
     float: left;
-    background-color: #f3f9ff;
+    background-color: #000000;
     padding: 100px 0 70px
 }
 
@@ -1096,10 +1096,10 @@ body::-webkit-scrollbar-thumb {
     clear: both;
     float: left;
     position: relative;
-    background-color: #fff;
-    border: 1px solid #f9fafc;
+    background-color: #000000;
+    border: 1px solid #f9fafc81;
     border-radius: 4px;
-    box-shadow: 30px 40px 80px #e4edf5;
+    box-shadow: 0px 10px 20px #ffffff7e;
     padding: 45px 70px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -1222,7 +1222,7 @@ body::-webkit-scrollbar-thumb {
     clear: both;
     float: left;
     position: relative;
-    border: 1px solid rgba(30, 30, 30, .2);
+    border: 1px solid rgb(255 255 255 / 13%);
     padding: 32px 40px 55px;
     border-radius: 4px;
     -webkit-transition: all .3s ease;
@@ -1253,7 +1253,7 @@ body::-webkit-scrollbar-thumb {
     font-family: var(--font-inter);
     font-weight: 500;
     font-size: 20px;
-    color: rgba(19, 15, 73, .5);
+    color: rgba(255, 255, 255, 0.5);
     display: inline-block;
     margin-bottom: 15px
 }
@@ -1269,7 +1269,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .service_list .text p {
-    color: #55527c;
+    color: #ffffffb6;
     opacity: .7
 }
 
@@ -1281,7 +1281,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_read_more a {
-    color: #130f49;
+    color: #fff;
     font-family: var(--font-inter);
     font-weight: 500
 }
@@ -1405,7 +1405,7 @@ body::-webkit-scrollbar-thumb {
     width: 49px;
     height: 49px;
     border-radius: 100%;
-    border: 1px solid #130f49;
+    border: 1px solid #fff;
     display: inline-block;
     margin-right: 12px;
     position: relative;
@@ -1417,7 +1417,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_portfolio_title .buttons a:hover {
-    background-color: #130f49
+    background-color: #fff
 }
 
 .elisc_tm_portfolio_title .buttons a:last-child {
@@ -1431,7 +1431,7 @@ body::-webkit-scrollbar-thumb {
     transform: translate(-50%, -50%);
     width: 9px;
     height: 9px;
-    color: #130f49;
+    color: #fff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -1522,7 +1522,7 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_portfolio .portfolio_list .details .title a {
     font-weight: 600;
     font-size: 24px;
-    color: #130f49
+    color: #fff
 }
 
 .line_effect {
@@ -1843,7 +1843,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_news .list .title a {
-    color: #130f49;
+    color: #fff;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -1856,7 +1856,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_news .list .title h3 {
-    color: #130f49;
+    color: #fff;
     font-size: 28px;
     font-weight: 600;
     line-height: 36px
@@ -1884,7 +1884,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     min-height: 100vh;
     float: left;
-    background-color: #e9f9ff;
+    background-color: #000000;
     padding-top: 120px
 }
 
@@ -1983,7 +1983,8 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_contact .fields ul li input {
     width: 100%;
     height: 60px;
-    background-color: #fff
+    background-color: #000000;
+    color: #ffffffb7;
 }
 
 .elisc_tm_contact .fields ul li input:focus {
@@ -1995,7 +1996,7 @@ body::-webkit-scrollbar-thumb {
     height: 120px;
     resize: none;
     margin-bottom: 15px;
-    background-color: #fff
+    background-color: #000000
 }
 
 .elisc_tm_contact .fields .last textarea:focus {
