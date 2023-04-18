@@ -1009,15 +1009,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_counter ul li:nth-child(1) .list_inner {
-    background-color: #d3f4ec8a
+    background-color: #86979349;
 }
 
 .elisc_tm_counter ul li:nth-child(2) .list_inner {
-    background-color: #fce8d47a
+    background-color: #97928d56;
 }
 
 .elisc_tm_counter ul li:nth-child(3) .list_inner {
-    background-color: #e3f9e079
+    background-color: #94a99142;
 }
 
 .elisc_tm_counter h3 {
