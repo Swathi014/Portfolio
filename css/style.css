@@ -732,7 +732,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .blueColor {
-    color: var(--blue-color)
+    color: #130f49;
 }
 
 .yellowColor {
@@ -858,7 +858,7 @@ body::-webkit-scrollbar-thumb {
     padding-left: 50px
 }
 
-.elisc_tm_home .details .right img {}
+
 
 .elisc_tm_about {
     width: 100%;
@@ -1060,11 +1060,11 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_title span {
     width: 100%;
-    float: left;
     font-weight: 500;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 12px
+    margin-bottom: 12px;
+  
 }
 
 .elisc_tm_title h3 {
@@ -1495,7 +1495,11 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_portfolio .portfolio_list .details {
     width: 100%;
-    float: left
+    float: left;
+    border: 1px solid rgba(36, 34, 34, 0.479);
+    padding: 10px;
+    background-color: #3f3f3f12;
+    height: 460px;
 }
 
 .elisc_tm_portfolio .portfolio_list .details .category {
