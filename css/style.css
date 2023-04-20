@@ -757,7 +757,7 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     border: 1.5px solid #130f49;
     border-radius: 4px;
-    padding: 9px 40px;
+    padding: 9px 25px;
     white-space: nowrap;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
