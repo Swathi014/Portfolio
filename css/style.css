@@ -1496,9 +1496,9 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_portfolio .portfolio_list .details {
     width: 100%;
     float: left;
-    border: 1px solid rgba(36, 34, 34, 0.479);
+    border: 1px solid rgb(199 172 172 / 48%);
     padding: 10px;
-    background-color: #3f3f3f12;
+    background-color: #ffffff12;
     height: 460px;
 }
 
