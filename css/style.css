@@ -3402,3 +3402,12 @@ body::-webkit-scrollbar-thumb {
     background: var(--yellow-color);
     color: var(--yellow-color);
 }
+
+
+.elisc_tm_sidebar .menu ul li.active a, .elisc_tm_sidebar .menu ul li.current a, .elisc_tm_sidebar .menu ul li a:hover{
+    color: var(--yellow-color);
+}
+
+.elisc_tm_sidebar .author .main::before{
+    background-color: var(--yellow-color);
+}
