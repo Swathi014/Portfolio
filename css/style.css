@@ -3389,3 +3389,16 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 15px
     }
 }
+
+
+.list-container li{
+    list-style: none;
+}
+.list-container li::before{
+    color: white;
+    border: 2px solid var(--yellow-color);
+}
+.list-container li:hover::before {
+    background: var(--yellow-color);
+    color: var(--yellow-color);
+}
